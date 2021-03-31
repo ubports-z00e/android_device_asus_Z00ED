@@ -1,4 +1,4 @@
-Unified Device Tree for Asus Zenfone 2 Laser (720p)
+Device Tree for Asus Zenfone 2 Laser (720p) (Z00ED) - for Ubuntu Touch
 ===========================================
 
 Basic   | Spec Sheet
