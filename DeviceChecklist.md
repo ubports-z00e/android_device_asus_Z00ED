@@ -57,7 +57,7 @@ Not working
 * USB: ADB access
 
 Untested
------------
+--------
 * Cellular: MMS in, out
 * Endurance: Battery lifetime > 24h from 100%
 * Endurance: No reboot needed for 1 week
@@ -65,3 +65,23 @@ Untested
 * Sensors: Automatic brightness
 * Sensors: Proximity
 * Sound: Earphones detected, volume control
+
+Porting notes
+-------------
+-------------
+To-do
+-----
+* Fix rsyslogd hanging (https://github.com/ubports/ubuntu-touch/issues/560#issuecomment-590060779)
+* Fix offline charging animation
+* Fix low performance?
+* Fix voice in calls
+* Fix torchlight in `indicator-power`
+* Fix time sync issues after reboot with flight mode enabled
+* Fix bluetooth
+* Fix GPS
+* Enable MTP & ABD
+* Build UBports recovery image
+* Create config for [devices.ubuntu-touch.io](https://www.google.com "Ubuntu Touch supported devices")
+* Fix reset to factory defaults
+* UBports installer support
+* OTA updates and official support?
