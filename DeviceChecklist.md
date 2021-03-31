@@ -67,8 +67,7 @@ Untested
 * Sound: Earphones detected, volume control
 
 Porting notes
--------------
--------------
+=============
 To-do
 -----
 * Fix rsyslogd hanging (https://github.com/ubports/ubuntu-touch/issues/560#issuecomment-590060779)
