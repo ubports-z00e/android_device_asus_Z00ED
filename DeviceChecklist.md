@@ -17,13 +17,13 @@ Working
 * Cellular: Incoming, outgoing calls
 * Cellular: Switch connection speed between 2G/3G/4G works for all SIMs
 * Cellular: Enable/disable mobile data and flightmode works
-* Cellular: Switch preferred SIM for calling and SMS - only for devices that support it
+* Cellular: Switch preferred SIM for calling and SMS
 * GPU: Boot into UI
 * Misc: AppArmor patches applied to kernel
 * Misc: Battery percentage
 * Misc: Offline charging (Power down, connect USB cable, device should not boot to UT)
 * Misc: Online charging (Green charging symbol, percentage increase in stats etc)
-* Misc: SD card detection and access - only for devices that support it
+* Misc: SD card detection and access
 * Misc: Shutdown / Reboot
 * WiFi: Driver loaded at startup
 * WiFi: Enable/disable and flightmode works
