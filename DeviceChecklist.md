@@ -79,6 +79,7 @@ To-do
 * Fix time sync issues after reboot with flight mode enabled
 * Fix bluetooth
 * Fix GPS
+* Apply Anbox kernel patches
 * Enable MTP & ABD
 * Build UBports recovery image
 * Create config for [devices.ubuntu-touch.io](https://www.google.com "Ubuntu Touch supported devices")
