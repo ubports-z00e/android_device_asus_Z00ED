@@ -27,7 +27,6 @@ Working
 * Misc: Shutdown / Reboot
 * WiFi: Driver loaded at startup
 * WiFi: Enable/disable and flightmode works
-* WiFi: Persistent MAC address between reboots
 * WiFi: Hotspot can be configured, switched on and off, can serve data to clients
 * Sensors: Rotation
 * Sensors: Touchscreen
@@ -58,6 +57,7 @@ Not working
 
 Untested
 --------
+* WiFi: Persistent MAC address between reboots
 * Cellular: Switch preferred SIM for calling and SMS
 * Endurance: Battery lifetime > 24h from 100%
 * Endurance: No reboot needed for 1 week
