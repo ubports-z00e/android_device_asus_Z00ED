@@ -14,10 +14,10 @@ Working
 * Cellular: Data connection
 * Cellular: PIN unlock
 * Cellular: SMS in, out
+* Cellular: MMS in, out
 * Cellular: Incoming, outgoing calls
 * Cellular: Switch connection speed between 2G/3G/4G works for all SIMs
 * Cellular: Enable/disable mobile data and flightmode works
-* Cellular: Switch preferred SIM for calling and SMS
 * GPU: Boot into UI
 * Misc: AppArmor patches applied to kernel
 * Misc: Battery percentage
@@ -58,7 +58,7 @@ Not working
 
 Untested
 --------
-* Cellular: MMS in, out
+* Cellular: Switch preferred SIM for calling and SMS
 * Endurance: Battery lifetime > 24h from 100%
 * Endurance: No reboot needed for 1 week
 * GPU: Hardware video decoding
@@ -74,6 +74,7 @@ To-do
 * Fix offline charging animation
 * Fix low performance?
 * Fix voice in calls
+* Fix dual SIM issues
 * Fix torchlight in `indicator-power`
 * Fix time sync issues after reboot with flight mode enabled
 * Fix bluetooth
