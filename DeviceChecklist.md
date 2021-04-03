@@ -8,16 +8,17 @@ Working
 * Actors: Vibration
 * Camera: Flashlight
 * Camera: Photo
-* Camera: Video
 * Camera: Switch between back and front camera
+* Camera: Video
 * Cellular: Carrier info, signal strength
 * Cellular: Data connection
+* Cellular: Enable/disable mobile data and flightmode works
+* Cellular: Incoming, outgoing calls
+* Cellular: MMS in, out
 * Cellular: PIN unlock
 * Cellular: SMS in, out
-* Cellular: MMS in, out
-* Cellular: Incoming, outgoing calls
 * Cellular: Switch connection speed between 2G/3G/4G works for all SIMs
-* Cellular: Enable/disable mobile data and flightmode works
+* Endurance: Battery lifetime > 24h from 100%
 * GPU: Boot into UI
 * Misc: AppArmor patches applied to kernel
 * Misc: Battery percentage
@@ -25,55 +26,57 @@ Working
 * Misc: Online charging (Green charging symbol, percentage increase in stats etc)
 * Misc: SD card detection and access
 * Misc: Shutdown / Reboot
-* WiFi: Driver loaded at startup
-* WiFi: Enable/disable and flightmode works
-* WiFi: Hotspot can be configured, switched on and off, can serve data to clients
+* Sensors: Proximity
 * Sensors: Rotation
 * Sensors: Touchscreen
+* Sound: Earphones buttons volume control
+* Sound: Earphones detected
+* Sound: Earphones microphone
 * Sound: Loudspeaker
-* Sound: Microphone
 * Sound: Loudspeaker volume control
+* Sound: Microphone
+* WiFi: Enable/disable and flightmode works
+* WiFi: Hotspot can be configured, switched on and off, can serve data to clients
 
 Working with additional steps
 -----------------------------
-*nothing here*
+* WiFi: Driver loaded at startup - does not work on first boot
 
 Not working
 -----------
 * Actors: Torchlight
 * Bluetooth: Driver loaded at startup
 * Bluetooth: Enable/disable and flightmode works
-* Bluetooth: Persistent MAC address between reboots
 * Bluetooth: Pairing with headset works, volume control ok
-* Cellular: Voice in calls
+* Bluetooth: Persistent MAC address between reboots
 * Cellular: Change audio routings
+* Cellular: Switch preferred SIM for calling and SMS
+* Cellular: Voice in calls
 * Misc: Anbox patches applied to kernel
+* Misc: Date and time are correct after reboot (go to flight mode before)
+* Misc: Offline charging battery percentage
 * Misc: Recovery image builds and works
 * Misc: Reset to factory defaults
-* Misc: Date and time are correct after reboot (go to flight mode before)
 * Sensors: GPS
-* USB: MTP access
 * USB: ADB access
+* USB: MTP access
+* WiFi: Persistent MAC address between reboots
 
 Untested
 --------
-* WiFi: Persistent MAC address between reboots
-* Cellular: Switch preferred SIM for calling and SMS
-* Endurance: Battery lifetime > 24h from 100%
 * Endurance: No reboot needed for 1 week
 * GPU: Hardware video decoding
 * Sensors: Automatic brightness
-* Sensors: Proximity
-* Sound: Earphones detected, volume control
+* Sound: Earphones buttons
 
 Porting notes
 =============
-To-do
+TODO
 -----
 * Fix rsyslogd hanging (https://github.com/ubports/ubuntu-touch/issues/560#issuecomment-590060779)
-* Fix offline charging animation
+* Fix offline charging battery percentage
 * Fix low performance?
-* Fix voice in calls
+* Fix voice and microphone in calls
 * Fix dual SIM issues
 * Fix torchlight in `indicator-power`
 * Fix time sync issues after reboot with flight mode enabled
@@ -86,3 +89,7 @@ To-do
 * Fix reset to factory defaults
 * UBports installer support
 * OTA updates and official support?
+* Fix WiFi MAC address
+* Enable Hall sensor
+* Cleanup
+* Add support for installing to /system for 8GB devices
