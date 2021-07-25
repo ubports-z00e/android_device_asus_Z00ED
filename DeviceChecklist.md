@@ -73,7 +73,6 @@ Porting notes
 =============
 TODO
 -----
-* Fix rsyslogd hanging (https://github.com/ubports/ubuntu-touch/issues/560#issuecomment-590060779)
 * Fix offline charging battery percentage
 * Fix low performance?
 * Fix voice and microphone in calls
